@@ -1,0 +1,14 @@
+cd YOUR-CHILD-THEME-NAME
+cat > .gitignore << 'EOF'
+.DS_Store
+Thumbs.db
+*.log
+.env
+node_modules/
+vendor/
+.idea/
+.vscode/
+*.zip
+*.sql
+*.wpress
+EOF
